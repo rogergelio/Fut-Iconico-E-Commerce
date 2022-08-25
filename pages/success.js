@@ -22,7 +22,7 @@ const Success = () => {
         <p className="icon">
           <BsBagCheckFill />
         </p>
-        <h2>Gracias por tu compra!</h2>
+        <h2>¡Gracias por tu compra!</h2>
         <p className="email-msg">Se te envió un correo con tu recibo.</p>
         <p className="description">
           Si tienes preguntas, por favor envía un correo a: 
