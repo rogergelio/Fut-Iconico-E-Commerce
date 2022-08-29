@@ -15,7 +15,7 @@ const Navbar = () => {
           <div>
             <span>
               <h1>Fút Icónico</h1>
-              <h4>Hechos para lucirnos. </h4>
+              <h4>Lo mejor de lo mejor. </h4>
             </span>
           </div>
         </Link>
