@@ -37,23 +37,11 @@ const ProductDetails = ({ product, products }) => {
 
         <div className="product-detail-desc">
           <h1>{name}</h1>
-          <div className="reviews">
-            <div>
-              <AiFillStar />
-              <AiFillStar />
-              <AiFillStar />
-              <AiFillStar />
-              <AiOutlineStar />
-            </div>
-            <p>
-              (20)
-            </p>
-          </div>
-          <h4>Details: </h4>
+          <h4>Detalles: </h4>
           <p>{details}</p>
           <p className="price">${price}</p>
           <div className="quantity">
-            <h3>Quantity:</h3>
+            <h3>Cantidad:</h3>
             <p className="quantity-desc">
               <span className="minus" onClick={decQty}><AiOutlineMinus /></span>
               <span className="num">{qty}</span>
@@ -61,8 +49,8 @@ const ProductDetails = ({ product, products }) => {
             </p>
           </div>
           <div className="buttons">
-            <button type="button" className="add-to-cart" onClick={() => onAdd(product, qty)}>Add to Cart</button>
-            <button type="button" className="buy-now" onClick={handleBuyNow}>Buy Now</button>
+            <button type="button" className="add-to-cart" onClick={() => onAdd(product, qty)}>Agregar al carrito</button>
+            <button type="button" className="buy-now" onClick={handleBuyNow}>Comprar ahora</button>
           </div>
         </div>
       </div>
